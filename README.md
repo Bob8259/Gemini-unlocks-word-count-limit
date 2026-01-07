@@ -12,7 +12,7 @@
 * **原理**：通过拦截并重写底层 `Quill.js` 引擎的 `insertAt` 和 `deleteAt` 原型方法，阻止系统对超长文本执行自动截断。[点击下载](https://greasyfork.org/zh-CN/scripts/561665/versions/new)
 * **特性**：
 * 支持无限长度的文本输入与粘贴。
-* 绕过前端 UI 层的字数校验（如 4000 字限制）。
+* 绕过前端 UI 层的字数校验。
 * 保持后端 API 发送的完整性。
 
 
