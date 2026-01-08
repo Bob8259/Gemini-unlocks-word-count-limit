@@ -3,13 +3,13 @@
 
 # Gemini 输入框增强脚本 (字数解除 + 智能回车)
 
-这是一个基于 **Tampermonkey (油猴)** 开发的脚本，专门用于优化 Gemini 网页版的输入体验。它解决了原生输入框在大段文字粘贴时的截断问题，并优化了发送后的清空逻辑。[点击下载](https://greasyfork.org/zh-CN/scripts/561665/versions/new)
+这是一个基于 **Tampermonkey (油猴)** 开发的脚本，专门用于优化 Gemini 网页版的输入体验。它解决了原生输入框在大段文字粘贴时的截断问题，并优化了发送后的清空逻辑。[点击下载](https://greasyfork.org/zh-CN/scripts/561665/)
 
 ## 🚀 主要功能
 
 ### 1. 彻底解除字数限制
 
-* **原理**：通过拦截并重写底层 `Quill.js` 引擎的 `insertAt` 和 `deleteAt` 原型方法，阻止系统对超长文本执行自动截断。[点击下载](https://greasyfork.org/zh-CN/scripts/561665/versions/new)
+* **原理**：通过拦截并重写底层 `Quill.js` 引擎的 `insertAt` 和 `deleteAt` 原型方法，阻止系统对超长文本执行自动截断。[点击下载](https://greasyfork.org/zh-CN/scripts/561665/)
 * **特性**：
 * 支持无限长度的文本输入与粘贴。
 * 绕过前端 UI 层的字数校验。
